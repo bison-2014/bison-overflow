@@ -6,10 +6,9 @@ class QuestionsController < ActionController::Base
   end
 
   def create
-    puts params
     @question = Question.new(question_params)
     if @question.save
-      redirect_to "/questions"
+      redirect_to question_path(@question)
     else
       flash[:errors] = "oopsies"
       redirect_to :back
@@ -19,6 +18,10 @@ class QuestionsController < ActionController::Base
   def new
     @thing = Question.new
     render :"questions/new"
+  end
+
+  def show
+    @question = Question.find(params[:id])
   end
 
   private
