@@ -2,5 +2,5 @@
   <h2><%= @question.title %></h2>
   <p><%= @question.content %></p>
   <p>You can come back to your question at:
-    <a href="/questions/<%= @question.id %>">http://localhost:3000/questions/<%= @question.id %></a>
+    <%= link_to request.original_url, questions_path(@question) %>
 </div>

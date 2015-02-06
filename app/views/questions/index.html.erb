@@ -1,0 +1,10 @@
+<%= render "questions/new_form" %>
+<div ="questions_container">
+  <ul>
+  <% @questions.each do |question| %>
+    <li>
+    <h2><%= link_to question.title, question_path(question) %></h2>
+    <%= question.content %>
+    </li><br />
+  <% end %>
+  </ul>

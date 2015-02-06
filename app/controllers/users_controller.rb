@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 	def create
     if @user = User.create(user_params)
 	    session[:user_id] = @user.id
-	    redirect_to users_path
+	    redirect_to root_path
 	  else
 	  	redirect_to signup_path
 	  end

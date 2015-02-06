@@ -1,8 +1,9 @@
-class QuestionsController < ActionController::Base
+class QuestionsController < ApplicationController
 
   def index
+    @thing = Question.new
     @questions = Question.all
-    render :'questions/index'
+    @user = User.find(session[:user_id]) || User.new
   end
 
   def create
@@ -17,7 +18,6 @@ class QuestionsController < ActionController::Base
 
   def new
     @thing = Question.new
-    render :"questions/new"
   end
 
   def show

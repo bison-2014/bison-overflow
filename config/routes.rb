@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   resources :questions
 
-  root 'questions#new'
+  root 'questions#index'
 
   get '/users' => 'users#index'
   get '/signup' => 'users#new'

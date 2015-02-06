@@ -29,11 +29,32 @@ nav h1{
 
 nav ul{
   margin-left: 25em;
- width: 50%;
- display: inline;
+  width: 50%;
+  display: inline;
 }
 
 nav ul li{
   list-style-type: none;
   display: inline;
 }
+
+
+a {
+  color: white;
+}
+/*a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+*/

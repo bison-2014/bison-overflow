@@ -1,0 +1,62 @@
+*/
+
+/*# sourceMappingURL=application.css.map */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  font: 100% Verdana, sans-serif;
+  color: black;
+  background: -webkit-linear-gradient(white, grey);
+  background: -o-linear-gradient(white, grey);
+  background: -moz-linear-gradient(white, grey);
+  background: linear-gradient(white, grey); }
+
+nav {
+  padding: 12px;
+  border-radius: 10px;
+  background: linear-gradient(#873ED1, #49198E);
+  color: white; }
+
+nav h1 {
+  width: 20%;
+  display: inline; }
+
+nav ul {
+  margin-left: 25em;
+  width: 50%;
+  display: inline; }
+
+nav ul li {
+  list-style-type: none;
+  display: inline; }
+
+a {
+  color: white; }
+
+/*a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+*/
+
+/*# sourceMappingURL=application.css.map */
