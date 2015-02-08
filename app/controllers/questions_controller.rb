@@ -38,7 +38,7 @@ class QuestionsController < ApplicationController
   def update
     @question = Question.find(params[:id])
     @question.update_attributes(question_params)
-    redirect_to question_path
+    redirect_to question_path(@question)
   end
 
   private
