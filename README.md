@@ -17,6 +17,7 @@ Project Description: Stackover flow for DBC
 Shea Strausman
 [github](https://github.com/SStrausman)
 [linkedin](https://www.linkedin.com/in/sheastrausman)
+
 Philipp Blume
 [github](https://github.com/pgblu)
 
